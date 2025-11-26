@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home } from './page/Home'
 import { NotFound } from './page/NotFound'
+import {Toaster} from '@/components/ui/Toaster'
 
 
 
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <>
+    <Toaster/>
       <BrowserRouter>
 
         <Routes>
